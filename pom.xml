@@ -297,13 +297,13 @@
     <distributionManagement>
 	    <repository>
 	        <id>nexus</id>
-	        <name>HDFC Release Repository</name>
-	        <url>http://65.0.74.146:8081/repository/HDFC-release-repo/</url>
+	        <name>demo-release</name>
+	        <url>http://13.201.39.34:8081/repository/demo-release//</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
-	        <name>HDFC Snapshot Repository</name>
-	        <url>http://65.0.74.146:8081/repository/HDFC-SNAPSHOT-Repo/</url>
+	        <name>demo</name>
+	        <url>http://13.201.39.34:8081/repository/demo//</url>
 	    </snapshotRepository>
     </distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
