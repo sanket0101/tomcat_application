@@ -567,10 +567,10 @@
 
     <repositories>
 		 <repository>
-        <id>nexus</id>
-        <name>tomcat-snapshot</name>
-        <url>http://43.205.95.22:8081/repository/tomcat-snapshot/</url>
-    </repository>
+            <id>repository.spring.milestone</id>
+            <name>Spring Milestone Repository</name>
+            <url>https://repo.spring.io/milestone</url>
+        </repository>
     </repositories>
 
 </project>
