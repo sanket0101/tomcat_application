@@ -84,7 +84,13 @@
 
        
     </properties>
-
+<repositories>
+    <repository>
+        <id>nexus</id>
+        <name>tomcat-snapshot</name>
+        <url>http://43.205.95.22:8081/repository/tomcat-snapshot/</url>
+    </repository>
+</repositories>
     <dependencyManagement>
         <dependencies>
             <dependency>
