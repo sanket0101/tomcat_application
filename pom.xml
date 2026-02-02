@@ -297,13 +297,13 @@
     <distributionManagement>
 	    <repository>
 	        <id>nexus</id>
-	        <name>demo-release</name>
-	        <url>http://13.201.39.34:8081/repository/demo-release//</url>
+	        <name>tomcat-release</name>
+	        <url>http://43.205.95.22:8081/repository/tomcat-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
-	        <name>demo</name>
-	        <url>http://13.201.39.34:8081/repository/demo//</url>
+	        <name>tomcat-snapshot</name>
+	        <url>http://43.205.95.22:8081/repository/tomcat-snapshot/</url>
 	    </snapshotRepository>
     </distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
