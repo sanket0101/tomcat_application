@@ -14,7 +14,7 @@ pipeline {
     }
 
     stages {
-        stage('Cloning  Repo') {
+        stage('Cloning github Repo') {
             steps {
                 git branch: 'main', url: 'https://github.com/sanket0101/tomcat_application.git'
             }
