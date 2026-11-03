@@ -16,6 +16,7 @@
        
         <sonar.host.url>http://65.2.141.74:7875</sonar.host.url>
         <sonar.projectKey>tomcat-application</sonar.projectKey>
+		<sonar.login>squ_f0fd677ccf24f2c8449f6636bd727192009666cd</sonar.login>
         
         <!-- Generic properties -->
         <java.version>1.8</java.version>
