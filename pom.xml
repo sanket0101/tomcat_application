@@ -14,7 +14,6 @@
     <properties>
 
         <properties>
-        
         <sonar.host.url>http://65.2.141.74:7875</sonar.host.url>
         <sonar.projectKey>tomcat-application</sonar.projectKey>
         </properties>
